@@ -1,0 +1,742 @@
+{
+    "images": [
+        {
+            "id": "1",
+            "name": "331 Däck",
+            "filename": "1_331 Dack.png",
+            "description": "Surveying guidance for Däck"
+        },
+        {
+            "id": "2",
+            "name": "332 Pelare",
+            "filename": "1_332 Pelare.png",
+            "description": "Surveying guidance for Pelare"
+        },
+        {
+            "id": "3",
+            "name": "333 Pylon",
+            "filename": "1_333 Pylon.png",
+            "description": "Surveying guidance for Pylon"
+        },
+        {
+            "id": "4",
+            "name": "334 Pergola",
+            "filename": "1_334 Pergola.png",
+            "description": "Surveying guidance for Pergola"
+        },
+        {
+            "id": "5",
+            "name": "335 Skorsten",
+            "filename": "1_335 Skorsten.png",
+            "description": "Surveying guidance for Skorsten"
+        },
+        {
+            "id": "6",
+            "name": "336 Terrängtrappa",
+            "filename": "1_336 Terrangtrappa.png",
+            "description": "Surveying guidance for Terrängtrappa"
+        },
+        {
+            "id": "7",
+            "name": "337 Enklare torn",
+            "filename": "1_337 Enklare torn.png",
+            "description": "Surveying guidance for Enklare torn"
+        },
+        {
+            "id": "8",
+            "name": "341 Fast målställning",
+            "filename": "1_341 Fast mlstllning.png",
+            "description": "Surveying guidance for Fast målställning"
+        },
+        {
+            "id": "9",
+            "name": "342 Idrottssarg",
+            "filename": "1_342 Idrottssarg.png",
+            "description": "Surveying guidance for Idrottssarg"
+        },
+        {
+            "id": "10",
+            "name": "343 Kantstöd",
+            "filename": "1_343 Kantstod.png",
+            "description": "Surveying guidance for Kantstöd"
+        },
+        {
+            "id": "11",
+            "name": "344 Lekredskap",
+            "filename": "1_344 Lekredskap.png",
+            "description": "Surveying guidance for Lekredskap"
+        },
+        {
+            "id": "12",
+            "name": "345 Linbana",
+            "filename": "1_345 Linbana.png",
+            "description": "Surveying guidance for Linbana"
+        },
+        {
+            "id": "13",
+            "name": "346 Minnessten",
+            "filename": "1_346 Minnessten.png",
+            "description": "Surveying guidance for Minnessten"
+        },
+        {
+            "id": "14",
+            "name": "347 Motionsredskap",
+            "filename": "1_347 Motionsredskap.png",
+            "description": "Surveying guidance for Motionsredskap"
+        },
+        {
+            "id": "15",
+            "name": "348 Parkbord",
+            "filename": "1_348 Parkbord.png",
+            "description": "Surveying guidance for Parkbord"
+        },
+        {
+            "id": "16",
+            "name": "349 Parkbänk",
+            "filename": "1_349 Parkbank.png",
+            "description": "Surveying guidance for Parkbänk"
+        },
+        {
+            "id": "17",
+            "name": "351 Avbärare",
+            "filename": "1_351 Avbarare.png",
+            "description": "Surveying guidance for Avbärare"
+        },
+        {
+            "id": "18",
+            "name": "352 Avkörningsskydd",
+            "filename": "1_352 Avkorningsskydd.png",
+            "description": "Surveying guidance for Avkörningsskydd"
+        },
+        {
+            "id": "19",
+            "name": "353 Ledverk",
+            "filename": "1_353 Ledverk.png",
+            "description": "Surveying guidance for Ledverk"
+        },
+        {
+            "id": "20",
+            "name": "354 Fender",
+            "filename": "1_354 Fender.png",
+            "description": "Surveying guidance for Fender"
+        },
+        {
+            "id": "21",
+            "name": "355 Dykdalb",
+            "filename": "1_355 Dykdalb.png",
+            "description": "Surveying guidance for Dykdalb"
+        },
+        {
+            "id": "22",
+            "name": "356 Brygga",
+            "filename": "1_356 Brygga  fast brygga flytbrygga.png",
+            "description": "Surveying guidance for Brygga"
+        },
+        {
+            "id": "23",
+            "name": "357 Pir",
+            "filename": "1_357 Pir.png",
+            "description": "Surveying guidance for Pir"
+        },
+        {
+            "id": "24",
+            "name": "358 Kaj",
+            "filename": "1_358  Kaj.png",
+            "description": "Surveying guidance for Kaj"
+        },
+        {
+            "id": "25",
+            "name": "359 Strandskoning",
+            "filename": "1_359 Strandskoning.png",
+            "description": "Surveying guidance for Strandskoning"
+        },
+        {
+            "id": "26",
+            "name": "361 Stenblock",
+            "filename": "1_361 Stenblock.png",
+            "description": "Surveying guidance for Stenblock"
+        },
+        {
+            "id": "27",
+            "name": "362 Träd",
+            "filename": "1_362 Trd  barrtrd lvtrd.png",
+            "description": "Surveying guidance for Träd"
+        },
+        {
+            "id": "28",
+            "name": "363 Dunge",
+            "filename": "1_363 Dunge.png",
+            "description": "Surveying guidance for Dunge"
+        },
+        {
+            "id": "29",
+            "name": "371 Avloppsanläggning",
+            "filename": "1_371 Avloppsanlggning.png",
+            "description": "Surveying guidance for Avloppsanläggning"
+        },
+        {
+            "id": "30",
+            "name": "372 Brunnslock",
+            "filename": "1_372 Brunnslock  teknikbrunnslock VAbrunnslock.png",
+            "description": "Surveying guidance for Brunnslock"
+        },
+        {
+            "id": "31",
+            "name": "373 Eluttag utomhus",
+            "filename": "1_373 Eluttag utomhus.png",
+            "description": "Surveying guidance for Eluttag utomhus"
+        },
+        {
+            "id": "32",
+            "name": "374 Flaggstång",
+            "filename": "1_374 Flaggstang.png",
+            "description": "Surveying guidance for Flaggstång"
+        },
+        {
+            "id": "33",
+            "name": "375 Fontän",
+            "filename": "1_375 Fontan.png",
+            "description": "Surveying guidance for Fontän"
+        },
+        {
+            "id": "34",
+            "name": "376 Fundament",
+            "filename": "1_376 Fundament  hopptorntrampolin hgspnningsledningsfundament.png",
+            "description": "Surveying guidance for Fundament"
+        },
+        {
+            "id": "35",
+            "name": "377 Färskvattenbrunn",
+            "filename": "1_377 Frskvattenbrunn.png",
+            "description": "Surveying guidance for Färskvattenbrunn"
+        },
+        {
+            "id": "36",
+            "name": "378 Informationstavla",
+            "filename": "1_378 Informationstavla.png",
+            "description": "Surveying guidance for Informationstavla"
+        },
+        {
+            "id": "37",
+            "name": "379 Kopplingsskåp",
+            "filename": "1_379  Kopplingsskp.png",
+            "description": "Surveying guidance for Kopplingsskåp"
+        },
+        {
+            "id": "38",
+            "name": "381 Cykelställ",
+            "filename": "1_381 Cykelstll.png",
+            "description": "Surveying guidance for Cykelställ"
+        },
+        {
+            "id": "39",
+            "name": "382 Farthinder",
+            "filename": "1_382 Farthinder.png",
+            "description": "Surveying guidance for Farthinder"
+        },
+        {
+            "id": "40",
+            "name": "383 Fordonsramp",
+            "filename": "1_383 Fordonsramp.png",
+            "description": "Surveying guidance for Fordonsramp"
+        },
+        {
+            "id": "41",
+            "name": "384 Ljusramp",
+            "filename": "1_384 Ljusramp.png",
+            "description": "Surveying guidance for Ljusramp"
+        },
+        {
+            "id": "42",
+            "name": "385 Perrong",
+            "filename": "1_385 Perrong.png",
+            "description": "Surveying guidance for Perrong"
+        },
+        {
+            "id": "43",
+            "name": "386 Pollare",
+            "filename": "1_386 Pollare  pollaregata pollarehamn.png",
+            "description": "Surveying guidance for Pollare"
+        },
+        {
+            "id": "44",
+            "name": "387 Vägbom",
+            "filename": "1_387 Vagbom.png",
+            "description": "Surveying guidance for Vägbom"
+        },
+        {
+            "id": "45",
+            "name": "388 Trumma",
+            "filename": "1_388 Trumma.png",
+            "description": "Surveying guidance for Trumma"
+        },
+        {
+            "id": "46",
+            "name": "389 Väghinder",
+            "filename": "1_389 Vaghinder.png",
+            "description": "Surveying guidance for Väghinder"
+        },
+        {
+            "id": "47",
+            "name": "421 Obligatoriska attributet",
+            "filename": "1_421 Obligatoriska attributet Fljer Svensk geoprocess mtningsanvisningar.png",
+            "description": "Surveying guidance for Obligatoriska attributet"
+        },
+        {
+            "id": "48",
+            "name": "422 Fullständig kodlista",
+            "filename": "1_422 Fullstndig kodlista.png",
+            "description": "Surveying guidance for Fullständig kodlista"
+        },
+        {
+            "id": "49",
+            "name": "521 Obligatoriska attributet",
+            "filename": "1_521 Obligatoriska attributet Fljer Svensk geoprocess mtningsanvisningar.png",
+            "description": "Surveying guidance for Obligatoriska attributet"
+        },
+        {
+            "id": "50",
+            "name": "522 Fullständiga kodlistor",
+            "filename": "1_522 Fullstndiga kodlistor.png",
+            "description": "Surveying guidance for Fullständiga kodlistor"
+        },
+        {
+            "id": "51",
+            "name": "551 Vad",
+            "filename": "1_551 Vad.png",
+            "description": "Surveying guidance for Vad"
+        },
+        {
+            "id": "52",
+            "name": "733 En byggnad med flera byggnadsdelar",
+            "filename": "1_733 En byggnad med flera byggnadsdelar.png",
+            "description": "Surveying guidance for En byggnad med flera byggnadsdelar"
+        },
+        {
+            "id": "53",
+            "name": "734 Byggnad och fysisk byggnad radhus",
+            "filename": "1_734 Byggnad och fysisk byggnad radhus.png",
+            "description": "Surveying guidance for Byggnad och fysisk byggnad radhus"
+        },
+        {
+            "id": "54",
+            "name": "735 Byggnad och aggregerad byggnad slutet kvarter",
+            "filename": "1_735 Byggnad och aggregerad byggnad slutet kvarter.png",
+            "description": "Surveying guidance for Byggnad och aggregerad byggnad slutet kvarter"
+        },
+        {
+            "id": "55",
+            "name": "741 En byggnad",
+            "filename": "1_741 En byggnad.png",
+            "description": "Surveying guidance for En byggnad"
+        },
+        {
+            "id": "56",
+            "name": "742 En byggnad med flera byggnadsdelar",
+            "filename": "1_742 En byggnad med flera byggnadsdelar.png",
+            "description": "Surveying guidance for En byggnad med flera byggnadsdelar"
+        },
+        {
+            "id": "57",
+            "name": "743 Byggnad och fysisk byggnad radhus",
+            "filename": "1_743 Byggnad och fysisk byggnad radhus.png",
+            "description": "Surveying guidance for Byggnad och fysisk byggnad radhus"
+        },
+        {
+            "id": "58",
+            "name": "744 Byggnad och aggregerad byggnad slutet kvarter",
+            "filename": "1_744 Byggnad och aggregerad byggnad slutet kvarter.png",
+            "description": "Surveying guidance for Byggnad och aggregerad byggnad slutet kvarter"
+        },
+        {
+            "id": "59",
+            "name": "751 En byggnad",
+            "filename": "1_751 En byggnad.png",
+            "description": "Surveying guidance for En byggnad"
+        },
+        {
+            "id": "60",
+            "name": "752 En byggnad med flera byggnadsdelar",
+            "filename": "1_752 En byggnad med flera byggnadsdelar.png",
+            "description": "Surveying guidance for En byggnad med flera byggnadsdelar"
+        },
+        {
+            "id": "61",
+            "name": "753 Byggnad och fysisk byggnad radhus",
+            "filename": "1_753 Byggnad och fysisk byggnad radhus.png",
+            "description": "Surveying guidance for Byggnad och fysisk byggnad radhus"
+        },
+        {
+            "id": "62",
+            "name": "754 Byggnad och aggregerad byggnad slutet kvarter",
+            "filename": "1_754 Byggnad och aggregerad byggnad slutet kvarter.png",
+            "description": "Surveying guidance for Byggnad och aggregerad byggnad slutet kvarter"
+        },
+        {
+            "id": "63",
+            "name": "761 Låg bebyggelse",
+            "filename": "1_761 Lag bebyggelse.png",
+            "description": "Surveying guidance for Låg bebyggelse"
+        },
+        {
+            "id": "64",
+            "name": "762 Hög bebyggelse",
+            "filename": "1_762 Hog bebyggelse.png",
+            "description": "Surveying guidance for Hög bebyggelse"
+        },
+        {
+            "id": "65",
+            "name": "771 Altan",
+            "filename": "1_771 Altan.png",
+            "description": "Surveying guidance for Altan"
+        },
+        {
+            "id": "66",
+            "name": "772 Lastbrygga",
+            "filename": "1_772 Lastbrygga.png",
+            "description": "Surveying guidance for Lastbrygga"
+        },
+        {
+            "id": "67",
+            "name": "773 Trappa inklusive ramp",
+            "filename": "1_773 Trappa inklusive ramp.png",
+            "description": "Surveying guidance for Trappa inklusive ramp"
+        },
+        {
+            "id": "68",
+            "name": "774 Brandvägg",
+            "filename": "1_774 Brandvgg.png",
+            "description": "Surveying guidance for Brandvägg"
+        },
+        {
+            "id": "69",
+            "name": "775 Balkong",
+            "filename": "1_775 Balkong.png",
+            "description": "Surveying guidance for Balkong"
+        },
+        {
+            "id": "70",
+            "name": "781 I anslutning till byggnads fasad",
+            "filename": "1_781 I anslutning till byggnads fasad.png",
+            "description": "Surveying guidance for I anslutning till byggnads fasad"
+        },
+        {
+            "id": "71",
+            "name": "782 På byggnads tak",
+            "filename": "1_782 P byggnads tak.png",
+            "description": "Surveying guidance for På byggnads tak"
+        },
+        {
+            "id": "72",
+            "name": "3410 Plantering",
+            "filename": "1_3410 Plantering  buskage hck rabatt.png",
+            "description": "Surveying guidance for Plantering"
+        },
+        {
+            "id": "73",
+            "name": "3411 Skidlift",
+            "filename": "1_3411  Skidlift  slplift sittlift.png",
+            "description": "Surveying guidance for Skidlift"
+        },
+        {
+            "id": "74",
+            "name": "3412 Utomhusdusch",
+            "filename": "1_3412  Utomhusdusch.png",
+            "description": "Surveying guidance for Utomhusdusch"
+        },
+        {
+            "id": "75",
+            "name": "3413 Utomhuskonstverk",
+            "filename": "1_3413  Utomhuskonstverk.png",
+            "description": "Surveying guidance for Utomhuskonstverk"
+        },
+        {
+            "id": "76",
+            "name": "3414 Vattenområdesavgränsare",
+            "filename": "1_3414  Vattenomrdesavgrnsare.png",
+            "description": "Surveying guidance for Vattenområdesavgränsare"
+        },
+        {
+            "id": "77",
+            "name": "3510 Sjömärke",
+            "filename": "1_3510 Sjmrke  landsjmrke flytande sjmrke.png",
+            "description": "Surveying guidance for Sjömärke"
+        },
+        {
+            "id": "78",
+            "name": "3710 Luftledning",
+            "filename": "1_3710  Luftledning  elluftledning teleluftledning.png",
+            "description": "Surveying guidance for Luftledning"
+        },
+        {
+            "id": "79",
+            "name": "3711 Markbunden solenergianlggning",
+            "filename": "1_3711 Markbunden solenergianlggning.png",
+            "description": "Surveying guidance for Markbunden solenergianlggning"
+        },
+        {
+            "id": "80",
+            "name": "3712 Mast",
+            "filename": "1_3712  Mast.png",
+            "description": "Surveying guidance for Mast"
+        },
+        {
+            "id": "81",
+            "name": "3713 Maststag",
+            "filename": "1_3713  Maststag.png",
+            "description": "Surveying guidance for Maststag"
+        },
+        {
+            "id": "82",
+            "name": "3714 Mur",
+            "filename": "1_3714  Mur.png",
+            "description": "Surveying guidance for Mur"
+        },
+        {
+            "id": "83",
+            "name": "3715 Plank",
+            "filename": "1_3715 Plank.png",
+            "description": "Surveying guidance for Plank"
+        },
+        {
+            "id": "84",
+            "name": "3716 Räcke",
+            "filename": "1_3716  Racke.png",
+            "description": "Surveying guidance for Räcke"
+        },
+        {
+            "id": "85",
+            "name": "3717 Rörledning ovan mark",
+            "filename": "1_3717  Rorledning ovan mark.png",
+            "description": "Surveying guidance for Rörledning ovan mark"
+        },
+        {
+            "id": "86",
+            "name": "3718 Slantfot och slantkron",
+            "filename": "1_3718 Slantfot och slantkron.png",
+            "description": "Surveying guidance for Slantfot och slantkron"
+        },
+        {
+            "id": "87",
+            "name": "3719 Stolpe",
+            "filename": "1_3719 Stolpe  belysningsstolpe milstolpe staketstolpe teknikstolpe.png",
+            "description": "Surveying guidance for Stolpe"
+        },
+        {
+            "id": "88",
+            "name": "3720 Stängsel",
+            "filename": "1_3720 Stngsel  grind staket.png",
+            "description": "Surveying guidance for Stängsel"
+        },
+        {
+            "id": "89",
+            "name": "3721 Stödmur",
+            "filename": "1_3721 Stdmur.png",
+            "description": "Surveying guidance for Stödmur"
+        },
+        {
+            "id": "90",
+            "name": "3722 Underjordisk ledning",
+            "filename": "1_3722 Underjordisk ledning  eljordkabel fjrrvrme opto telejordkabel VA.png",
+            "description": "Surveying guidance for Underjordisk ledning"
+        },
+        {
+            "id": "91",
+            "name": "3723 Återvinningsstation",
+            "filename": "1_3723  tervinningsstation.png",
+            "description": "Surveying guidance for Återvinningsstation"
+        },
+        {
+            "id": "92",
+            "name": "331 Däck (2)",
+            "filename": "2_331 Dack.png",
+            "description": "Surveying guidance for Däck (2)"
+        },
+        {
+            "id": "93",
+            "name": "353 Ledverk (2)",
+            "filename": "2_353 Ledverk.png",
+            "description": "Surveying guidance for Ledverk (2)"
+        },
+        {
+            "id": "94",
+            "name": "356 Brygga (2)",
+            "filename": "2_356 Brygga  fast brygga flytbrygga.png",
+            "description": "Surveying guidance for Brygga (2)"
+        },
+        {
+            "id": "95",
+            "name": "611 2D och 3D",
+            "filename": "2_611 2D och 3D.png",
+            "description": "Surveying guidance for 2D och 3D"
+        },
+        {
+            "id": "96",
+            "name": "712 Detaljeringsnivåer LOD",
+            "filename": "2_712 Detaljeringsniver LOD.png",
+            "description": "Surveying guidance for Detaljeringsnivåer LOD"
+        },
+        {
+            "id": "97",
+            "name": "722 Obligatorisk kodning av plan och höjdläge",
+            "filename": "2_722 Obligatorisk kodning av plan och hjdlge.png",
+            "description": "Surveying guidance for Obligatorisk kodning av plan och höjdläge"
+        },
+        {
+            "id": "98",
+            "name": "732 En byggnad (2)",
+            "filename": "2_732 En byggnad.png",
+            "description": "Surveying guidance for En byggnad (2)"
+        },
+        {
+            "id": "99",
+            "name": "741 En byggnad (2)",
+            "filename": "2_741 En byggnad.png",
+            "description": "Surveying guidance for En byggnad (2)"
+        },
+        {
+            "id": "100",
+            "name": "751 En byggnad (2)",
+            "filename": "2_751 En byggnad.png",
+            "description": "Surveying guidance for En byggnad (2)"
+        },
+        {
+            "id": "101",
+            "name": "781 I anslutning till byggnads fasad (2)",
+            "filename": "2_781 I anslutning till byggnads fasad.png",
+            "description": "Surveying guidance for I anslutning till byggnads fasad (2)"
+        },
+        {
+            "id": "102",
+            "name": "782 På byggnads tak (2)",
+            "filename": "2_782 P byggnads tak.png",
+            "description": "Surveying guidance for På byggnads tak (2)"
+        },
+        {
+            "id": "103",
+            "name": "552 Fångstarm",
+            "filename": "1_552 Fangstarm.png",
+            "description": "Surveying guidance for Fångstarm"
+        },
+        {
+            "id": "104",
+            "name": "553 Hjälptelefon",
+            "filename": "1_553 Hjlptelefon.png",
+            "description": "Surveying guidance for Hjälptelefon"
+        },
+        {
+            "id": "105",
+            "name": "611 2D och 3D",
+            "filename": "1_611 2D och 3D.png",
+            "description": "Surveying guidance for 2D och 3D"
+        },
+        {
+            "id": "106",
+            "name": "612 Ytor alternativt ytbildning med marklinjer och centroid",
+            "filename": "1_612 Ytor alternativt ytbildning med marklinjer och centroid.png",
+            "description": "Surveying guidance for Ytor alternativt ytbildning med marklinjer och centroid"
+        },
+        {
+            "id": "107",
+            "name": "621 Obligatoriska attributet",
+            "filename": "1_621 Obligatoriska attributet Fljer Svensk geoprocess mtningsanvisningar.png",
+            "description": "Surveying guidance for Obligatoriska attributet"
+        },
+        {
+            "id": "108",
+            "name": "622 Fullständig kodlista",
+            "filename": "1_622 Fullstandig kodlista.png",
+            "description": "Surveying guidance for Fullständig kodlista"
+        },
+        {
+            "id": "109",
+            "name": "711 2D och 3D",
+            "filename": "1_711 2D och 3D.png",
+            "description": "Surveying guidance for 2D och 3D"
+        },
+        {
+            "id": "110",
+            "name": "712 Detaljeringsnivåer LOD",
+            "filename": "1_712 Detaljeringsniver LOD.png",
+            "description": "Surveying guidance for Detaljeringsnivåer LOD"
+        },
+        {
+            "id": "111",
+            "name": "713 Byggnad vs fysisk byggnad och aggregerad byggnad",
+            "filename": "1_713 Byggnad vs fysisk byggnad och aggregerad byggnad.png",
+            "description": "Surveying guidance for Byggnad vs fysisk byggnad och aggregerad byggnad"
+        },
+        {
+            "id": "112",
+            "name": "714 Byggnadsdelar",
+            "filename": "1_714 Byggnadsdelar.png",
+            "description": "Surveying guidance for Byggnadsdelar"
+        },
+        {
+            "id": "113",
+            "name": "715 Råd avseende 3D-hantering",
+            "filename": "1_715 Rd avseende 3Dhantering.png",
+            "description": "Surveying guidance for Råd avseende 3D-hantering"
+        },
+        {
+            "id": "114",
+            "name": "716 Insamlingsmetoder",
+            "filename": "1_716 Insamlingsmetoder.png",
+            "description": "Surveying guidance for Insamlingsmetoder"
+        },
+        {
+            "id": "115",
+            "name": "721 Generaliseringsregler",
+            "filename": "1_721 Generaliseringsregler.png",
+            "description": "Surveying guidance for Generaliseringsregler"
+        },
+        {
+            "id": "116",
+            "name": "722 Obligatorisk kodning av plan och höjdläge",
+            "filename": "1_722 Obligatorisk kodning av plan och hjdlge.png",
+            "description": "Surveying guidance for Obligatorisk kodning av plan och höjdläge"
+        },
+        {
+            "id": "117",
+            "name": "723 Obligatorisk kodning av byggnadsändamål för byggnader översiktlig nivå",
+            "filename": "1_723 Obligatorisk kodning av byggnadsndaml fr byggnader versiktlig niv.png",
+            "description": "Surveying guidance for Obligatorisk kodning av byggnadsändamål för byggnader översiktlig nivå"
+        },
+        {
+            "id": "118",
+            "name": "724 Obligatorisk kodning av byggnadstillbehör",
+            "filename": "1_724 Obligatorisk kodning av byggnadstillbehr.png",
+            "description": "Surveying guidance for Obligatorisk kodning av byggnadstillbehör"
+        },
+        {
+            "id": "119",
+            "name": "725 Obligatoriska attributet",
+            "filename": "1_725 Obligatoriska attributet Fljer Svensk geoprocess mtningsanvisningar.png",
+            "description": "Surveying guidance for Obligatoriska attributet"
+        },
+        {
+            "id": "120",
+            "name": "726 Frivilliga höjdattribut för byggnad",
+            "filename": "1_726 Frivilliga hjdattribut fr byggnad.png",
+            "description": "Surveying guidance for Frivilliga höjdattribut för byggnad"
+        },
+        {
+            "id": "121",
+            "name": "727 Frivilliga beskrivande attribut för byggnad",
+            "filename": "1_727 Frivilliga beskrivande attribut fr byggnad.png",
+            "description": "Surveying guidance for Frivilliga beskrivande attribut för byggnad"
+        },
+        {
+            "id": "122",
+            "name": "731 Byggnation",
+            "filename": "1_731 Byggnation.png",
+            "description": "Surveying guidance for Byggnation"
+        },
+        {
+            "id": "123",
+            "name": "732 En byggnad",
+            "filename": "1_732 En byggnad.png",
+            "description": "Surveying guidance for En byggnad"
+        }
+    ]
+} 
