@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Image Gallery</title>
+    <style>
+        .gallery-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            position: relative;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px; /* Add space between navigation and image */
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .search-container {
+            position: relative;
+            margin: 20px 0;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .image-info {
+            margin-top: 10px;
+        }
+
+        .nav-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .search-results-dropdown {
+            position: absolute;
+            width: 100%;
+            max-height: 200px;
+            overflow-y: auto;
+            background: white;
+            border: 1px solid #ccc;
+            border-top: none;
+            z-index: 1000;
+            display: none;
+        }
+
+        .search-results-dropdown div {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .search-results-dropdown div:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="search-container">
+            <input type="text" 
+                   class="search-input" 
+                   placeholder="Search by name or description..."
+                   id="searchInput">
+            <div id="searchResults" style="margin-top: 5px; color: #666;">
+                Showing all images
+            </div>
+            <div id="searchResultsDropdown" class="search-results-dropdown"></div>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-button" id="prevButton">← Previous</button>
+            <button class="nav-button" id="nextButton">Next →</button>
+        </div>
+
+        <div class="image-container">
+            <img id="currentImage" src="" alt="Survey Image">
+            <div class="image-info">
+                <h2 id="imageName"></h2>
+                <p id="imageDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let images = [];
+        let currentIndex = 0;
+        let filteredImages = [];
+
+        // Helper function to convert Swedish characters in filenames
+        function convertSwedishChars(filename) {
+            return filename
+                .replace(/å/g, 'a')
+                .replace(/ä/g, 'a')
+                .replace(/ö/g, 'o')
+                .replace(/Å/g, 'A')
+                .replace(/Ä/g, 'A')
+                .replace(/Ö/g, 'O');
+        }
+
+        fetch('images/index.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to load index.json');
+                }
+                return response.json();
+            })
+            .then(data => {
+                images = data.images;
+                filteredImages = [...images];
+                displayCurrentImage();
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('imageName').textContent = 'Error loading images';
+            });
+
+        function displayCurrentImage() {
+            if (filteredImages.length === 0) {
+                document.getElementById('currentImage').src = '';
+                document.getElementById('imageName').textContent = 'No images found';
+                document.getElementById('imageDescription').textContent = '';
+                return;
+            }
+
+            const image = filteredImages[currentIndex];
+            // Convert Swedish characters in filename
+            const convertedFilename = convertSwedishChars(image.filename);
+            const imgPath = `images/${convertedFilename}`;
+            
+            const img = document.getElementById('currentImage');
+            img.onerror = () => {
+                console.error('Failed to load image:', imgPath);
+                img.alt = 'Failed to load image';
+            };
+            img.src = imgPath;
+            
+            document.getElementById('imageName').textContent = image.name;
+            document.getElementById('imageDescription').textContent = image.description;
+
+            console.log('Attempting to load image:', imgPath);
+        }
+
+        // Navigation handlers
+        document.getElementById('prevButton').addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                displayCurrentImage();
+            }
+        });
+
+        document.getElementById('nextButton').addEventListener('click', () => {
+            if (currentIndex < filteredImages.length - 1) {
+                currentIndex++;
+                displayCurrentImage();
+            }
+        });
+
+        // Updated search functionality
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const dropdownEl = document.getElementById('searchResultsDropdown');
+            
+            // If search is empty, hide dropdown and show all images
+            if (!searchTerm.trim()) {
+                filteredImages = [...images];
+                updateSearchResults(filteredImages.length, images.length);
+                dropdownEl.style.display = 'none';
+                currentIndex = 0;
+                displayCurrentImage();
+                return;
+            }
+
+            // More flexible search that looks for partial matches
+            filteredImages = images.filter(image => {
+                const searchableText = [
+                    image.id,
+                    image.name.toLowerCase(),
+                    image.description.toLowerCase(),
+                    image.filename.toLowerCase(),
+                    convertSwedishChars(image.name).toLowerCase(),
+                    convertSwedishChars(image.description).toLowerCase()
+                ].join(' ');
+
+                const searchTerms = searchTerm.split(' ');
+                return searchTerms.every(term => searchableText.includes(term));
+            });
+
+            // Update dropdown with search results
+            if (filteredImages.length > 0) {
+                dropdownEl.innerHTML = filteredImages
+                    .map((image, index) => `
+                        <div onclick="selectImage(${index})">
+                            ${image.name} - ${image.description}
+                        </div>
+                    `)
+                    .join('');
+                dropdownEl.style.display = 'block';
+            } else {
+                dropdownEl.style.display = 'none';
+            }
+
+            updateSearchResults(filteredImages.length, images.length);
+            currentIndex = 0;
+            displayCurrentImage();
+        });
+
+        // Function to select image from dropdown
+        function selectImage(index) {
+            currentIndex = index;
+            displayCurrentImage();
+            document.getElementById('searchResultsDropdown').style.display = 'none';
+        }
+
+        // Hide dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.search-container')) {
+                document.getElementById('searchResultsDropdown').style.display = 'none';
+            }
+        });
+
+        // Function to update search results text
+        function updateSearchResults(filteredCount, totalCount) {
+            const resultsDiv = document.getElementById('searchResults');
+            if (!document.getElementById('searchInput').value.trim()) {
+                resultsDiv.textContent = `Showing all ${totalCount} images`;
+            } else if (filteredCount === 0) {
+                resultsDiv.textContent = 'No matching images found';
+            } else {
+                resultsDiv.textContent = `Showing ${filteredCount} of ${totalCount} images`;
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                document.getElementById('prevButton').click();
+            } else if (e.key === 'ArrowRight') {
+                document.getElementById('nextButton').click();
+            }
+        });
+    </script>
+</body>
+</html> 
